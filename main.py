@@ -28,5 +28,14 @@ def github():
 def projectplan():
   return render_template("projectplan.html")
 
+@app.route("/image")
+def images():
+  return render_template("image.html")
+
+@app.route("/rimages")
+def rimages():
+  return render_template("rimages.html")
+
+
 if __name__ == "__main__":
   app.run(debug=True, port='3000', host='0.0.0.0')
