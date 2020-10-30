@@ -28,5 +28,9 @@ def github():
 def projectplan():
   return render_template("projectplan.html")
 
+@app.route("/kailagoals")
+def kailagoals():
+  return render_template("kailagoals.html")
+
 if __name__ == "__main__":
   app.run(debug=True, port='3000', host='0.0.0.0')
