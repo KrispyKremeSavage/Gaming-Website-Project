@@ -56,5 +56,13 @@ def calvingoals():
 def gametest():
   return render_template("gametest.html")
 
+@app.route("/trivia")
+def trivia():
+  return render_template("trivia.html")
+
+@app.route("/kailavideo")
+def kailavideo():
+  return render_template("kailavideo.html")
+
 if __name__ == "__main__":
   app.run()
