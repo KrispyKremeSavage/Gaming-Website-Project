@@ -64,5 +64,9 @@ def trivia():
 def kailavideo():
   return render_template("kailavideo.html")
 
+@app.route("/calvinvideo")
+def calvinvideo():
+  return render_template("calvinvideo.html")
+
 if __name__ == "__main__":
-  app.run()
+  app.run(port='3000', host='127.0.0.1')
