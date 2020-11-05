@@ -52,5 +52,9 @@ def randomnum():
 def battleship():
   return render_template("battleship.html")
 
+@app.route("/gametest")
+def gametest():
+  return render_template("gametest.html")
+
 if __name__ == "__main__":
-  app.run(debug=True, port='3000', host='0.0.0.0')
+  app.run()
