@@ -52,9 +52,33 @@ def randomnum():
 def battleship():
   return render_template("battleship.html")
 
+@app.route("/kailavideo")
+def kailavideo():
+  return render_template("kailavideo.html")
+
+@app.route("/calvinvideo")
+def calvinvideo():
+  return render_template("calvinvideo.html")
+
+app.route("/kailagoals")
+def kailagoals():
+  return render_template("kailagoals.html")
+
+@app.route("/eshaangoals")
+def eshaangoals():
+  return render_template("eshaangoals.html")
+
+@app.route("/brentgoals")
+def brentgoals():
+  return render_template("brentgoals.html")
+
+@app.route("/calvingoals")
+def calvingoals():
+  return render_template("calvingoals.html")
+
 @app.route("/gametest")
 def gametest():
   return render_template("gametest.html")
 
 if __name__ == "__main__":
-  app.run()
+  app.run(debug=True, port='3000', host='127.0.0.1')
