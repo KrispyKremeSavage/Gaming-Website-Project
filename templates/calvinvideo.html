@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Calvin's Video and Artifacts{% endblock %}
+{% block content %}
+<h3>Calvin's Video and Artifacts</h3>
+<div class="media">
+    <a href="/trivia">
+        <img src="{{ url_for('static', filename='images/.png')}}" width="64" height="64" class="mr-3">
+    </a>
+    <div class="media-body">
+        <h5 class="mt-0">Battleship</h5>
+        Play a computer science based trivia game!
+    </div>
+    <p></p>
+    <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
+    </div>
+    {% endblock %}
