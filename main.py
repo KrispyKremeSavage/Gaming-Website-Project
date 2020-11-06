@@ -80,5 +80,10 @@ def calvingoals():
 def gametest():
   return render_template("gametest.html")
 
+@app.route("/eshaanvideo")
+def eshaanvideo():
+    return render_template("eshaanvideo.html")
+
+
 if __name__ == "__main__":
   app.run(debug=True, port='3000', host='127.0.0.1')
