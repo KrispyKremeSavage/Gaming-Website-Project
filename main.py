@@ -60,6 +60,10 @@ def kailavideo():
 def calvinvideo():
   return render_template("calvinvideo.html")
 
+@app.route("/brentvideo")
+def brentvideo():
+  return render_template("brentvideo.html")
+
 app.route("/kailasgoals")
 def kailasgoals():
   return render_template("kailasgoals.html")
