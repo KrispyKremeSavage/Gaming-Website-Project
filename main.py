@@ -84,10 +84,13 @@ def gametest():
 def eshaanvideo():
     return render_template("eshaanvideo.html")
 
-
 @app.route("/pong")
 def pong():
   return render_template("pong.html")
+
+@app.route("/pacman")
+def pacman():
+  return render_template("pacman.html")
 
 if __name__ == "__main__":
   app.run(debug=True, port='3000', host='127.0.0.1')
