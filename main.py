@@ -60,7 +60,7 @@ def kailavideo():
 def calvinvideo():
   return render_template("calvinvideo.html")
 
-@app.route("/kailasgoals")
+app.route("/kailasgoals")
 def kailasgoals():
   return render_template("kailasgoals.html")
 
@@ -83,7 +83,6 @@ def gametest():
 @app.route("/eshaanvideo")
 def eshaanvideo():
     return render_template("eshaanvideo.html")
-
 
 
 if __name__ == "__main__":

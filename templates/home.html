@@ -3,7 +3,6 @@
 {% block content %}
  <image src="{{ url_for('static', filename='images/borderthree.png')}}"> 
   <h1 class="text-center">Welcome to P4 Charlie B's Website!</h1>
- <p></p>
   <div class="media">
    <a href="/trivia">
     <img src="{{ url_for('static', filename='images/trivia.png')}}" width="64" height="64" class="mr-3">
@@ -35,5 +34,23 @@
       <div class="media-body">
        <h5 class="mt-0">Rock Paper Scissors</h5>
        Play rock paper scissors with a computer!
+      </div>
+      <div class="media">
+       <a href="/pong">
+        <img src="{{ url_for('static', filename='images/pong.png')}}" width="64" height="64" class="mr-3">
+       </a>
+      </div>
+       <div class="media-body">
+        <h5 class="mt-0">Pong!</h5>
+        Play a classic game from the 70's!
+       </div>
+      <div class="media">
+       <a href="/pacman">
+        <img src="{{ url_for('static', filename='images/pacman.png')}}" width="64" height="64" class="mr-3">
+       </a>
+      </div>
+      <div class="media-body">
+       <h5 class="mt-0">Pac Man</h5>
+       Play another classic by munching on coins and avoiding ghosts!
       </div>
 {% endblock %}
