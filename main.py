@@ -96,6 +96,10 @@ def pacman():
 def tics():
   return render_template("tics.html")
 
+@app.route("/snake")
+def snake():
+  return render_template("snake.html")
+
 
 if __name__ == "__main__":
   app.run(debug=True, port='3000', host='127.0.0.1')
