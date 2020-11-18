@@ -64,7 +64,12 @@ Assignments and Purpose:
     Website Design: Brent will be contributing to the website designs and concepts.
 
   Eshaan: 
-    PacMan: Eshaan hopes to add the PacMan game from our last project into the gaming website.
+    PacMan: Eshaan added a new, refined version of Pac Man on our website. It was based off of a potential model we
+    were planning on using for our last project, but it got scratched.
+
+    Pong: Eshaan added Pong to our website as well. This was a newly thought idea for more games.
+
+    Snake: Eshaan added Snake to our website as well. This was a newly thought idea for more games.
 
     Website Code: Eshaan helped in regards to figuring out the science behind website code.
 
@@ -73,4 +78,6 @@ Assignments and Purpose:
 
     Modules: Calvin will be in charge of organizing modules for the project.
 
-    Games: Games he created in our last project will hopefully be implemented into our current assignment. 
+    Games: Games he created in our last project will hopefully be implemented into our current assignment.
+
+Grading PLAN
