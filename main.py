@@ -104,6 +104,13 @@ def snake():
 def brentvideo():
   return render_template("brentvideo.html")
 
+@app.route("/helloseries")
+def helloseries():
+  return render_template("helloseries.html")
+
+@app.route("/flask")
+def flask():
+  return render_template("flask.html")
 
 if __name__ == "__main__":
   app.run(debug=True, host='127.0.0.1',port='3000')
