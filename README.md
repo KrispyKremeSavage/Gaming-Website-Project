@@ -82,7 +82,8 @@ Assignments and Purpose:
 
 How To Work With our Gaming Website
 
--Copy and paste this link into your search engine: http://104.63.255.27/
+-Copy and paste this link into your search engine: http://104.63.255.27/ (should take you to Homepage)
+    
     -This will direct you to our website's homepage using an application route that has been defined by the function
     "home"
     -The function renders the html file named "home.html" which contains the html code for all of the games and their 
@@ -92,8 +93,11 @@ How To Work With our Gaming Website
     the variable "class" to equate it to the "nav-bar" function in order for it to enact as such, followed up by using
     hrefs to direct the user to the specified app routes using defined functions, also making the drop down options
     enact as buttons
+    -The homepage uses Jinja and Bootstrap to format the structure of the homepage and where the top bar is placed in 
+    relation to everything else
         
 -Trivia
+    
     -When clicking on the png image for Trivia, the png image enacts as a direct path to the Trivia Game by using
     an href that is set to equal the application route to the function itself (/trivia), along with a url_for command
     being used to interlink the png image and the href together so that the image can act as a button
@@ -101,6 +105,7 @@ How To Work With our Gaming Website
     there is also a timing delays to allow the user to prepare themselves an answer
    
 -Random Number Generator (RNG)
+    
     -When clicking on the png image for RNG, the png image enacts as a direct path to the RNG Game by using
      an href that is set to equal the application route to the function itself (/randomnum), along with a url_for command
      being used to interlink the png image and the href together so that the image can act as a button
@@ -111,10 +116,71 @@ How To Work With our Gaming Website
     correctly OR if the user failed to guess correctly
     
 -Battleship
-    -When clicking on the png image for Battleship, the png image enacts as a direct path to the RNG Game by using
-     an href that is set to equal the application route to the function itself (/), along with a url_for command
-     being used to interlink the png image and the href together so that the image can act as a button
     
+    -When clicking on the png image for Battleship, the png image enacts as a direct path to the RNG Game by using
+     an href that is set to equal the application route to the function itself (/battleship), along with a url_for command
+     being used to interlink the png image and the href together so that the image can act as a button
+    -Uses "os" and "random" packages to randomize the location of the battleships
+    -Uses if, else, and elif statements to indicate whether the user got a hit or missed
+
+-Rock Paper Scissors
+    
+    -When clicking on the png image for Rock Paper Scissors, the png image enacts as a direct path to the RNG Game by using
+     an href that is set to equal the application route to the function itself (/rocks), along with a url_for command
+     being used to interlink the png image and the href together so that the image can act as a button
+    -Uses "random" package to randomize whether the computer chooses rock, paper, or scissors
+    -Uses if else statements to state if the user beats the computer with the option the user picked or if they lost with
+     the option they picked
+     
+-Pong
+    
+    -When clicking on the png image for Pong, the png image enacts as a direct path to the RNG Game by using
+     an href that is set to equal the application route to the function itself (/pong), along with a url_for command
+     being used to interlink the png image and the href together so that the image can act as a button    
+    -Uses "turtle" package to create shapes of the paddles and ball, and maintain them while they are in motion
+    -Uses if and elif statements to keep track of how the ball bounces off of the paddles and how the score is tracked
+     when a paddle misses
+     
+-Pac Man
+
+    -When clicking on the png image for Pac Man, the png image enacts as a direct path to the RNG Game by using
+     an href that is set to equal the application route to the function itself (/pacman), along with a url_for command
+     being used to interlink the png image and the href together so that the image can act as a button
+    -Uses "pygame" and "app_class" to treat the program as an application and a functioning game that uses Python
+    -Functions used to control players speed, direction and coin collecting, along with the enemies being used to 
+     track the player
+    -Uses text files and a png image to form the maze for the player and for them to move around it properly (no breaking
+    through walls and cheating)
+
+-Tic Tac Toe
+
+    -When clicking on the png image for Tic Tac Toe, the png image enacts as a direct path to the RNG Game by using
+     an href that is set to equal the application route to the function itself (/tics), along with a url_for command
+     being used to interlink the png image and the href together so that the image can act as a button
+    -Creates a variable for the board to assign naumbers to certain positions on the board
+    -Uses if else statements to track both of the users plays on the board to see who gets three in a row first
+    -Uses an if else statement to ask if the player wants to play again or quit at the end
+    
+Snake
+
+    -When clicking on the png image for Snake, the png image enacts as a direct path to the RNG Game by using
+     an href that is set to equal the application route to the function itself (/snake), along with a url_for command
+     being used to interlink the png image and the href together so that the image can act as a button
+    -Uses "curses" and "randit" to randomly place fruits on the board where the snake roams
+    -Uses if else statements to increase the size of the snake when fruit is consumed and when the snake hits the wall/
+    eats itself
+
+Drop-Down Menus
+
+    -Uses "class = nav-link dropdown-toggle" to establish the navigation bar as a dropdown menu
+    -Established as a button using "role=button"
+    -Uses "class='dropdown-menu' aria-labelledby='navbarDropdown'" to start the function of what options there are in 
+     the dropdown
+    -Buttons established from dropdown using "class='dropdown-item'" and then an href to show what the dropdown option
+     directs the user to
+    -Basis for all dropdowns, what changes is what the href is equivalent to and what each button is titled
+
+        
   
     
 
