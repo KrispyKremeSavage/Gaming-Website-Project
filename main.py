@@ -112,5 +112,13 @@ def helloseries():
 def flask():
   return render_template("flask.html")
 
+@app.route("/selfgrading")
+def selfgrading():
+  return render_template("selfgrading.html")
+
+@app.route("/journals")
+def journals():
+  return render_template("journals.html")
+
 if __name__ == "__main__":
   app.run(debug=True, host='127.0.0.1',port='3000')
